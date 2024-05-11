@@ -77,12 +77,10 @@ Follow the [contributing guidelines](CONTRIBUTING.md) if you want to propose a c
 - Documentation for application templates based on Docker maintainers is in the [docker-library](https://github.com/Websoft9/docker-library).
 - [Articles promoting Websoft9](https://github.com/Websoft9/websoft9/issues/327)
 
-- ## TEST
+# Contact for Real-Time Communication
 
-![](https://libs.websoft9.com/Websoft9/feature/icon-userchatgroup-websoft9.png)
+For real-time communication, please join our ["Websoft9 Communication WeChat Group"]([your-gitter-link](https://libs.websoft9.com/Websoft9/feature/icon-userchatgroup-websoft9.png)).
 
-- ## TEST2
-![](https://libs.websoft9.com/Websoft9/feature/icon-userchatgroup-websoft92.png)
 # License
 
 Websoft9 is licensed under the [LGPL-3.0](/LICENSE.md), and additional Terms: It is not allowed to publish free or paid image based on this repository in any Cloud platform's Marketplace without authorization
