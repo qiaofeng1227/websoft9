@@ -79,7 +79,7 @@ Follow the [contributing guidelines](CONTRIBUTING.md) if you want to propose a c
 
 # Contact for Real-Time Communication
 
-For real-time communication, please join our ["Websoft9 Communication WeChat Group"](https://libs.websoft9.com/Websoft9/feature/icon-userchatgroup-websoft9.png).
+For real-time communication, please join our [Websoft9 Communication WeChat Group](https://libs.websoft9.com/Websoft9/feature/icon-userchatgroup-websoft9.png).
 
 # License
 
