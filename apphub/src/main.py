@@ -13,12 +13,12 @@ from src.schemas.errorResponse import ErrorResponse
 from fastapi.responses import HTMLResponse
 from fastapi.security.api_key import APIKeyHeader
 
-# set uvicorn logger to stdout
+# set uvicorn logger to null
 uvicorn_logger = logging.getLogger("uvicorn")
-stdout_handler = logging.StreamHandler(sys.stdout)
-uvicorn_logger.addHandler(stdout_handler)
+uvicorn_logger.handlers = []
+null_handler = logging.NullHandler()
+uvicorn_logger.addHandler(null_handler)
 uvicorn_logger.setLevel(logging.INFO)
-logging.getLogger("fastapi").setLevel(logging.INFO)
 
 
 API_KEY_NAME = "x-api-key"

@@ -59,6 +59,11 @@ class Logger(metaclass=SingletonMeta):
 
         log_file = os.path.join(log_folder, f"apphub_{log_type}.log")
 
+        stdout_handler = logging.StreamHandler()
+        stdout_handler.setLevel(logging.INFO)
+        stdout_handler.setFormatter(formatter)
+        logger.addHandler(stdout_handler)
+
         file_handler = TimedRotatingFileHandler(
             filename=log_file,
             when="D",
