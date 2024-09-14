@@ -19,6 +19,7 @@ stdout_handler = logging.StreamHandler(sys.stdout)
 uvicorn_logger.addHandler(stdout_handler)
 uvicorn_logger.setLevel(logging.INFO)
 logging.getLogger("fastapi").setLevel(logging.INFO)
+logger.info("test api")
 
 API_KEY_NAME = "x-api-key"
 api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
