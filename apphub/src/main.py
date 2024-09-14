@@ -18,7 +18,10 @@ uvicorn_logger = logging.getLogger("uvicorn")
 uvicorn_logger.handlers = []
 null_handler = logging.NullHandler()
 uvicorn_logger.addHandler(null_handler)
-uvicorn_logger.setLevel(logging.INFO)
+uvicorn_logger.setLevel(logging.WARNING)
+fastapi_logger = logging.getLogger("fastapi")
+fastapi_logger.addHandler(null_handler)
+fastapi_logger.setLevel(logging.WARNING)
 
 
 API_KEY_NAME = "x-api-key"
