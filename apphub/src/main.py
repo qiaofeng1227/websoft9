@@ -17,8 +17,8 @@ from fastapi.security.api_key import APIKeyHeader
 uvicorn_logger = logging.getLogger("uvicorn")
 stdout_handler = logging.StreamHandler(sys.stdout)
 uvicorn_logger.addHandler(stdout_handler)
-uvicorn_logger.setLevel(logging.WARNING)
-logging.getLogger("fastapi").setLevel(logging.WARNING)
+uvicorn_logger.setLevel(logging.INFO)
+logging.getLogger("fastapi").setLevel(logging.INFO)
 
 API_KEY_NAME = "x-api-key"
 api_key_header = APIKeyHeader(name=API_KEY_NAME, auto_error=False)
